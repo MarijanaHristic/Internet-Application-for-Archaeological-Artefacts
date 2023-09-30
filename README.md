@@ -1,2 +1,3 @@
 # Internet-Application-for-Archaeological-Artefacts
-Manage and explore archaeological artefacts with ease. Register, log in, and delve into history with this user-friendly web app.
+MEAN full stack web application for managing archaeological artefacts. It provides users with the ability to register, log in, and explore a rich collection of archaeological findings. The frontend is entirely developed using Angular technology, while the backend is implemented in Node.js. It utilizes a MongoDB database.
+
