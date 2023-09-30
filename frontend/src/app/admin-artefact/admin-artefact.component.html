@@ -1,0 +1,1678 @@
+<html
+    class="w-mod-js w-mod-ix wf-cormorantgaramond-n3-active wf-cormorantgaramond-n4-active wf-cormorantgaramond-n5-active wf-cormorantgaramond-n6-active wf-cormorantgaramond-n7-active wf-active">
+
+<head>
+    <style>
+        .wf-force-outline-none[tabindex="-1"]:focus {
+            outline: none;
+        }
+    </style>
+    <meta charset="utf-8">
+    <title>Uloguj se - The Flow Serbia</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <meta content="https://uploads-ssl.webflow.com/62024fae1d3031093cd14c20/6202505b13fbbdbe4cfb5808_logo.jpg"
+        property="og:image">
+    <meta content="https://uploads-ssl.webflow.com/62024fae1d3031093cd14c20/6202505b13fbbdbe4cfb5808_logo.jpg"
+        property="twitter:image">
+    <meta property="og:type" content="website">
+    <meta content="summary_large_image" name="twitter:card">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="Webflow" name="generator">
+    <link href="https://uploads-ssl.webflow.com/62024fae1d3031093cd14c20/css/theflowserbia.webflow.96cc82c63.css"
+        rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,regular,500,600,700"
+        media="all">
+    <script
+        type="text/javascript">WebFont.load({ google: { families: ["Cormorant Garamond:300,regular,500,600,700"] } });</script>
+    <script
+        type="text/javascript">!function (o, c) { var n = c.documentElement, t = " w-mod-"; n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch") }(window, document);</script>
+    <link href="https://uploads-ssl.webflow.com/62024fae1d3031093cd14c20/62053d94ac9ea251bf7bc55b_favicon-32x32.png"
+        rel="shortcut icon" type="image/x-icon">
+    <link href="https://uploads-ssl.webflow.com/img/webclip.png" rel="apple-touch-icon">
+    <meta content="Uloguj se - The Flow Serbia" property="og:title">
+    <meta content="Uloguj se - The Flow Serbia" property="twitter:title">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body style="background-color: rgb(237, 255, 236);">
+    <div data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease" data-easing2="ease"
+        role="banner" class="navigation w-nav">
+        <div class="navigation-wrap"><a href="/" aria-current="page" class="logo-link w-nav-brand w--current"
+                aria-label="home"><img (click)="logout()"
+                    src="https://uploads-ssl.webflow.com/62024fae1d3031093cd14c20/6203de200818db69dc48b79d_FB%20COVER%202-4.png"
+                    width="108" sizes="(max-width: 479px) 100vw, (max-width: 767px) 21vw, 130px"
+                    srcset="https://uploads-ssl.webflow.com/62024fae1d3031093cd14c20/6203de200818db69dc48b79d_FB%20COVER%202-4-p-500.png 500w, https://uploads-ssl.webflow.com/62024fae1d3031093cd14c20/6203de200818db69dc48b79d_FB%20COVER%202-4-p-800.png 800w, https://uploads-ssl.webflow.com/62024fae1d3031093cd14c20/6203de200818db69dc48b79d_FB%20COVER%202-4.png 1306w"
+                    alt="The Flow Logo" class="logo-image"></a>
+            <div class="menu">
+                <nav role="navigation" class="navigation-items w-nav-menu">
+                    <a href="/adminAddPredefiniedVal" aria-current="page" 
+                        class="navigation-item navClass w-nav-link">Dodaj vrednost</a>
+                    <a href="/adminArtefacts" aria-current="page"
+                        class="navigation-item navClass w-nav-link  w--current">Artefakti</a>
+                    <a href="/admin" aria-current="page" class="navigation-item navClass w-nav-link">Članovi</a>
+                    <a href="/addNewUser" class="navigation-item navClass w-nav-link">Dodaj člana</a>
+                    <a href="/addNewArtefact" class="navigation-item navClass w-nav-link">Novi unos</a>
+                    <a href="" data-toggle="modal" data-target="#changePassword"
+                        class="navigation-item navClass w-nav-link">Promeni lozinku</a>
+                    <button class="button w-button" (click)="logout()">Odjavi se <i
+                            class="fas fa-sign-out-alt"></i></button>
+                </nav>
+                <div class="menu-button w-nav-button" aria-label="menu" role="button" tabindex="0"
+                    aria-controls="w-nav-overlay-0" aria-haspopup="menu" aria-expanded="false"><img
+                        src="https://uploads-ssl.webflow.com/62024fae1d3031093cd14c20/62024fae1d3031b2d1d14c46_menu-icon.png"
+                        width="22" alt="Burger menu" class="menu-icon"></div>
+            </div>
+
+        </div>
+        <div class="w-nav-overlay" data-wf-ignore="" id="w-nav-overlay-0"></div>
+    </div>
+    <div class="intro-header home-header">
+        <div class="intro-content cc-homepage">
+            <div class="intro-text">
+                <div style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
+                    class="heading-jumbo white">Artefakti</div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="changePassword" tabindex="-1" role="dialog" aria-labelledby="changePasswordModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document" style="position: absolute; left: 0px;">
+            <div class="modal-content" id="modalContent">
+                <div style="background-color: rgb(237, 255, 236);" class="modal-header">
+                    <h5 style="background-color: rgb(237, 255, 236);" class="modal-title" id="changePasswordModalLabel">
+                        Promena lozinke</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="closeModal()"
+                        style="position: absolute; left: 460px;">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" style="background-color: rgb(237, 255, 236); height: 600px;">
+                    <div class="d-flex align-items-center justify-content-center">
+                        <div class="contact-form-wrap" style="max-height: 500px;">
+                            <div class="contact-form w-form">
+                                <form>
+                                    <div class="d-flex align-items-center justify-content-center">
+                                        <div *ngIf="changePasswordSuccessfull == true"
+                                            style="text-align: center; height: 100px; "
+                                            class="d-flex align-items-center justify-content-center">
+                                            <div class="container">
+                                                <div class='row'>
+                                                    <div class="alert-box" style="float: none; margin: 0 auto;">
+                                                        <div class="alert alert-success">
+                                                            <div class="alert-icon text-center"
+                                                                style="padding-top: 15px;">
+                                                                <i class="fa fa-check-square-o  fa-3x"
+                                                                    aria-hidden="true"></i>
+                                                            </div>
+                                                            <div class="alert-message text-center">
+                                                                <p><strong>Lozinka je promenjena.</strong></p>
+                                                                <p>Ulogujte se ponovo.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div *ngIf="changePasswordSuccessfull == true">
+                                        <br>
+                                        <br>
+                                    </div>
+                                    <label style="font-weight: bold; font-family: Cera pro, sans-serif;"
+                                        for="OldPassword">Stara lozinka</label>
+                                    <p class="errorMessages" style="margin-bottom: 0px">{{messageInputOldPassword}}</p>
+                                    <input type="password" class="text-field cc-contact-field w-input" maxlength="256"
+                                        name="oldPassword" data-name="OldPassword" placeholder="Unesite staru lozinku"
+                                        id="OldPassword" [(ngModel)]="inputOldPassword"
+                                        [class.colorRed]="colorInputOldPassword == true">
+                                    <label style="font-weight: bold; font-family: Cera pro, sans-serif;"
+                                        for="NewPassword">Nova lozinka</label>
+                                    <p class="errorMessages" style="margin-bottom: 0px">{{messageInputNewPassword}}</p>
+                                    <p class="errorMessages" style="margin-bottom: 0px"
+                                        *ngIf="passwordValidationMessage!=''">
+                                        {{passwordValidationMessage}}</p>
+                                    <input type="password" class="text-field cc-contact-field w-input" maxlength="256"
+                                        name="newPassword" data-name="NewPassword" placeholder="Unesite novu lozinku"
+                                        id="NewPassword" required="" [(ngModel)]="inputNewPassword"
+                                        [class.colorRed]="colorInputNewPassword == true">
+                                    <label style="font-weight: bold; font-family: Cera pro, sans-serif;"
+                                        for="NewPassword2">Potvrda nove lozinke</label>
+                                    <p class="errorMessages" style="margin-bottom: 0px">{{messageInputNewPassword2}}</p>
+                                    <input type="password" class="text-field cc-contact-field w-input" maxlength="256"
+                                        name="newPassword2" data-name="NewPassword2"
+                                        placeholder="Unesite potvrdu nove lozinke" id="NewPassword2" required=""
+                                        [(ngModel)]="inputNewPassword2"
+                                        [class.colorRed]="colorInputNewPassword2 == true">
+                                    <div style="position: absolute; top: 520px; right: 20px;">
+                                        <button type="button" class="button w-button"
+                                            style="background-color: rgb(246, 144, 128); color: black;"
+                                            data-dismiss="modal" (click)="closeModal()">Zatvori</button>
+                                        &nbsp;
+                                        <button type="button" class="button w-button"
+                                            style="background-color: rgb(169, 234, 166); color: black;"
+                                            (click)="changePassword()">Promeni</button>
+                                    </div>
+                                    <br>
+                                    <br>
+                                </form>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="d-flex align-items-center justify-content-center">
+        <div class="contact-form w-form">
+            <form>
+                <div class="container" style="width: 1000px; margin-left: 450px;">
+                    <label style="font-weight: bold; font-family: Cera pro, sans-serif;" for="Username">Pretraga</label>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <input type="search" class="text-field cc-contact-field w-input" maxlength="256"
+                                name="search" data-name="Search" id="Search" style="height: 43px;"
+                                placeholder="Pretraga" [(ngModel)]="searchInput" (keydown)="onKeyDownSearch($event)">
+                        </div>
+                        <div class="col-md-4">
+                            <button class="button w-button" style="height: 43px; position: relative; right: 0px"
+                                type="button" (click)="search()">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <br>
+        </div>
+    </div>
+    <div class="row" style="max-width: 1400px;">
+        <div *ngIf="material != '' || arhSiteExc != '' || museum != '' || relDating != '' || context != '' || xrfNavBar == true
+    || xrdNavBar == true || oslNavBar == true" class=" col d-flex align-items-center justify-content-center"
+            style="max-width: 300px; width: 300px;">
+            <div style="margin-left: 20px; vertical-align: middle;">
+                <h4>Filteri:</h4>
+            </div>
+        </div>
+        <div class="col" style="padding-top: 15px; font-size: 13px; max-width: 1100px;">
+            <div style="display: inline-block;">
+                <div *ngIf="material != ''"
+                    style="background-color: rgb(248, 177, 149); border-radius: 10px; padding-left: 5px;
+                padding-right: 5px; padding-top: 2px; padding-bottom: 2px; display: inline-block; margin-left: 7px; margin-bottom: 7px;">
+                    Materijal:
+                    {{material}}
+                    <button style="background-color: rgb(248, 177, 149); width: 20px; height: 20px;"
+                        (click)="materialSearch('')">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div *ngIf="arhSiteExc != ''"
+                    style="background-color: rgb(248, 177, 149); border-radius: 10px; padding-left: 5px;
+                padding-right: 5px; padding-top: 2px; padding-bottom: 2px; display: inline-block; margin-left: 7px; margin-bottom: 7px;">
+                    Arh.lok.iskopavanja:
+                    {{arhSiteExc}}
+                    <button style="background-color: rgb(248, 177, 149); width: 20px; height: 20px;"
+                        (click)="archaeologicalExcSiteSearch('')">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div *ngIf="museum != ''"
+                    style="background-color: rgb(248, 177, 149); border-radius: 10px; padding-left: 5px;
+                padding-right: 5px; padding-top: 2px; padding-bottom: 2px; display: inline-block; margin-left: 7px; margin-bottom: 7px;">
+                    Muzej:
+                    {{museum}}
+                    <button style="background-color: rgb(248, 177, 149); width: 20px; height: 20px;"
+                        (click)="museumSearch('')">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div *ngIf="relDating != ''"
+                    style="background-color: rgb(248, 177, 149); border-radius: 10px; padding-left: 5px;
+                padding-right: 5px; padding-top: 2px; padding-bottom: 2px; display: inline-block; margin-left: 7px; margin-bottom: 7px;">
+                    Rel.datovanje:
+                    {{relDating}}
+                    <button style="background-color: rgb(248, 177, 149); width: 20px; height: 20px;"
+                        (click)="relDatingSearch('')">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div *ngIf="context != ''"
+                    style="background-color: rgb(248, 177, 149); border-radius: 10px; padding-left: 5px;
+                padding-right: 5px; padding-top: 2px; padding-bottom: 2px; display: inline-block; margin-left: 7px; margin-bottom: 7px;">
+                    Kontekst:
+                    {{context}}
+                    <button style="background-color: rgb(248, 177, 149); width: 20px; height: 20px;"
+                        (click)="contextSearch('')">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div *ngIf="xrfNavBar == true"
+                    style="background-color: rgb(248, 177, 149); border-radius: 10px; padding-left: 5px;
+                padding-right: 5px; padding-top: 2px; padding-bottom: 2px; display: inline-block; margin-left: 7px; margin-bottom: 7px;">
+                    XRF
+                    <button style="background-color: rgb(248, 177, 149); width: 20px; height: 20px;"
+                        (click)="xrfSearch(false)">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div *ngIf="xrdNavBar == true"
+                    style="background-color: rgb(248, 177, 149); border-radius: 10px; padding-left: 5px;
+                padding-right: 5px; padding-top: 2px; padding-bottom: 2px; display: inline-block; margin-left: 7px; margin-bottom: 7px;">
+                    XRD
+                    <button style="background-color: rgb(248, 177, 149); width: 20px; height: 20px;"
+                        (click)="xrdSearch(false)">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div *ngIf="oslNavBar == true"
+                    style="background-color: rgb(248, 177, 149); border-radius: 10px; padding-left: 5px;
+                padding-right: 5px; padding-top: 2px; padding-bottom: 2px; display: inline-block; margin-left: 7px; margin-bottom: 7px;">
+                    OSL
+                    <button style="background-color: rgb(248, 177, 149); width: 20px; height: 20px;"
+                        (click)="oslSearch(false)">
+                        <span>&times;</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div *ngFor="let a of allArtefacts">
+        <div class="modal fade" [id]="a.id + '_modal'" tabindex="-1" role="dialog" aria-labelledby="a.id"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div style="background-color: rgb(237, 255, 236); width: 1300px; height: 50px;"
+                        class="modal-header">
+                        <button class="button w-button" (click)="clickEdit()" style="background-color: rgb(246, 144, 128); color: black; height: 35px; vertical-align: middle; border-radius: 1px;
+                            position: absolute; left: 20px; padding: 10px 10px;">Uredi
+                            &#x270E;</button>
+                        <h5 class="modal-title" id="a.id">Informacije o artefaktu</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"
+                            style="position: absolute; left: 1260px;" (click)="closeArtefactModal()">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body" style="background-color: rgb(237, 255, 236); width: 1300px;">
+                        <div *ngIf="editFlag == false">
+                            <div class="row" style="margin-left: 10px;">
+                                <div class="col" style="width: 700px; max-width: 700px;">
+                                    <div class="row">
+                                        <div class="col" style="max-width: 350px;">
+                                            <div style="width: 300px;" class="contact-form-wrap2">
+                                                <img src="http://localhost:4000/uploads/{{a.slika}}"
+                                                    style="width: 300px; height: 280px;" alt="Slika">
+                                                <div *ngIf="a.opisIspodSlike != 'null'"
+                                                    style="background-color: rgb(248, 177, 149);">
+                                                    {{a.opisIspodSlike}}</div>
+                                            </div>
+                                        </div>
+                                        <div class="col" style="max-width: 350px;">
+                                            <div class="contact-form-wrap2" style=" width: 310px; font-size: larger;">
+                                                <div class="d-flex align-items-center justify-content-center"
+                                                    style="background-color: rgb(248, 177, 149); font-size: larger;">
+                                                    Opis
+                                                    artefakta
+                                                </div>
+                                                <h5>Dimenzije</h5>
+                                                <div style="max-width: 290px;">
+                                                    <div class="row" style="position: relative; left: 10px;">
+                                                        <div class="col">
+                                                            <p><span style="font-weight: 500;">Dužina:</span> &nbsp;
+                                                                <span class="value">{{showNumberField(a.duzina)}}</span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="col">
+                                                            <p><span style="font-weight: 500;">Širina:</span> &nbsp;
+                                                                <span class="value">{{showNumberField(a.sirina)}}</span>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row" style="position: relative; left: 10px;">
+                                                        <div class="col">
+                                                            <p><span style="font-weight: 500;">Visina:</span> &nbsp;
+                                                                <span class="value">{{showNumberField(a.visina)}}</span>
+                                                            </p>
+                                                        </div>
+                                                        <div class="col">
+                                                            <p><span style="font-weight: 500;">Prečnik:</span> &nbsp;
+                                                                <span
+                                                                    class="value">{{showNumberField(a.precnik)}}</span>
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row" style="position: relative; left: 10px;">
+                                                        <p><span style="font-weight: 500;">Debljina:</span> &nbsp; <span
+                                                                class="value">{{showNumberField(a.debljina)}}</span></p>
+                                                    </div>
+                                                    <div class="row" style="position: relative; left: 10px;">
+                                                        <p><span style="font-weight: 500;">Težina:</span> &nbsp; <span
+                                                                class="value">{{showNumberField(a.tezina)}}</span></p>
+                                                    </div>
+                                                    <div class="row" style="position: relative; left: 10px;">
+                                                        <p><span style="font-weight: 500;">Opis artefakta:</span> &nbsp;
+                                                            <span
+                                                                class="value">{{showStringField(a.opisArtefakta)}}</span>
+                                                        </p>
+                                                    </div>
+                                                    <div class="row" style="position: relative; left: 10px;">
+                                                        <p><span style="font-weight: 500;">Analogije:</span> &nbsp;
+                                                            <span class="value">{{showStringField(a.analogije)}}</span>
+                                                        </p>
+                                                    </div>
+                                                    <br>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row" style="margin-top: 20px;">
+                                        <div class="col" style="max-width: 350px; width: 300px;">
+                                            <div class="contact-form-wrap2" style=" width: 310px; font-size: larger; ">
+                                                <div class="d-flex align-items-center justify-content-center"
+                                                    style="background-color: rgb(248, 177, 149); font-size: larger; margin-bottom: 10px;">
+                                                    Opis
+                                                    uzorka
+                                                </div>
+                                                <div style="max-width: 290px;">
+                                                    <div class="row" style="position: relative; left: 10px;">
+                                                        <p><span style="font-weight: 500;">Materijal:</span> &nbsp;
+                                                            <span class="value">{{showStringField(a.materijal)}}</span>
+                                                        </p>
+                                                    </div>
+                                                    <div class="row" style="position: relative; left: 10px;">
+                                                        <p><span style="font-weight: 500;">Opis uzorka:</span> &nbsp;
+                                                            <span class="value">{{showStringField(a.opisUzorka)}}</span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <br>
+                                            </div>
+                                        </div>
+                                        <div class="col" style="max-width: 350px;width: 300px;">
+                                            <div class="contact-form-wrap2" style=" width: 310px;  font-size: larger; ">
+                                                <div class="d-flex align-items-center justify-content-center"
+                                                    style="background-color: rgb(248, 177, 149); font-size: larger; margin-bottom: 10px;">
+                                                    Sirovina
+                                                </div>
+                                                <div style="max-width: 290px;">
+                                                    <div class="row" style="position: relative; left: 10px;">
+                                                        <p><span style="font-weight: 500;">Sirovina:</span> &nbsp; <span
+                                                                class="value">{{showStringField(a.sirovina)}}</span></p>
+                                                    </div>
+                                                    <br>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col" style="max-width: 500px;">
+                                    <div>
+                                        <div class="contact-form-wrap2" style=" width: 510px; font-size: larger;">
+                                            <div class="d-flex align-items-center justify-content-center"
+                                                style="background-color: rgb(248, 177, 149); font-size: larger; margin-bottom: 10px;">
+                                                Provenijencija
+                                                artefakta
+                                            </div>
+                                            <div style="max-width: 490px;">
+                                                <div class="row" style="position: relative; left: 10px;">
+                                                    <p><span style="font-weight: 500;">Arheoloski lokalitet
+                                                            iskopavanja:</span>
+                                                        &nbsp; <span
+                                                            class="value">{{showStringField(a.arheoloskiLokalitetIskopavanja)}}</span>
+                                                    </p>
+                                                </div>
+                                                <div class="row" style="position: relative; left: 10px;">
+                                                    <p><span style="font-weight: 500;">Muzej:</span> &nbsp; <span
+                                                            class="value">{{showStringField(a.muzej)}}</span></p>
+                                                </div>
+                                                <div class="row" style="position: relative; left: 10px;">
+                                                    <p><span style="font-weight: 500;">Inventarski broj:</span> &nbsp;
+                                                        <span
+                                                            class="value">{{showStringField(a.inventarskiBroj)}}</span>
+                                                    </p>
+                                                </div>
+                                                <div class="row" style="position: relative; left: 10px;">
+                                                    <p><span style="font-weight: 500;">Relativno datovanje:</span>
+                                                        &nbsp;
+                                                        <span
+                                                            class="value">{{showStringField(a.relativnoDatovanje)}}</span>
+                                                    </p>
+                                                </div>
+                                                <div class="row" style="position: relative; left: 10px;">
+                                                    <p><span style="font-weight: 500;">Apsolutno datovanje:</span>
+                                                        &nbsp;
+                                                        <span
+                                                            class="value">{{showStringField(a.apsolutnoDatovanje)}}</span>
+                                                    </p>
+                                                </div>
+                                                <div class="row" style="position: relative; left: 10px;">
+                                                    <p><span style="font-weight: 500;">Kontekst:</span> &nbsp; <span
+                                                            class="value">{{showStringField(a.kontekst)}}</span></p>
+                                                </div>
+                                                <div class="row" style="position: relative; left: 10px;">
+                                                    <p><span style="font-weight: 500;">Koordinate:</span> &nbsp; <span
+                                                            class="value">({{showNumberField(a.x)}},
+                                                            {{showNumberField(a.y)}}, {{showNumberField(a.z)}}
+                                                            m.n.v)</span>
+                                                    </p>
+                                                </div>
+                                                <div style="height: 70px;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div class="col" style="max-width: 200px;">
+                                        <div>
+                                            <div class="contact-form-wrap2" style=" width: 200px; font-size: larger;">
+                                                <div class="d-flex align-items-center justify-content-center"
+                                                    style="background-color: rgb(248, 177, 149); font-size: larger; margin-bottom: 10px;">
+                                                    Izvršene analize
+                                                </div>
+                                                <div class="row" style="position: relative; left: 10px;">
+                                                    <p style="color: #6c567b; font-weight: 450;"><button
+                                                            style="background-color: #EDFFEC;"
+                                                            (click)="xrfIsClicked()">XRF</button></p>
+                                                    <p style="color: #6c567b; font-weight: 450;"><button
+                                                            style="background-color: #EDFFEC;"
+                                                            (click)="xrdIsClicked()">XRD</button></p>
+                                                    <p style="color: #6c567b; font-weight: 450;">
+                                                        <button style="background-color: #EDFFEC;"
+                                                            (click)="xsIsClicked()">XS</button>
+                                                    </p>
+                                                    <p style="color: #6c567b; font-weight: 450;"><button
+                                                            style="background-color: #EDFFEC;"
+                                                            (click)="oslIsClicked()">OSL</button></p>
+                                                </div>
+                                                <div style="height: 10px;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <br>
+                            <div *ngIf="xrfClicked == true && a.XRF.length > 0"
+                                style="overflow-wrap: break-word; max-width: 1500px;">
+                                <div class="contact-form-wrap2" style="min-width: 300px; font-size: larger;">
+                                    <button type="button" class="close" aria-label="Close" (click)="closeXrf()"
+                                        style="position: absolute; left: 1250px;">
+                                        <span
+                                            style="color: white; height: 10px; margin-top: 3px; font-size: larger;">&times;</span>
+                                    </button>
+                                    <div class="d-flex align-items-center justify-content-center"
+                                        style="background-color: rgb(248, 177, 149); font-size: larger; margin-bottom: 10px;">
+                                        XRF
+                                    </div>
+                                    <div *ngIf="a.XRF.length > 0" style="display: flex; flex-wrap: wrap;">
+                                        <div *ngFor="let x of a.XRF" style="flex: 1; margin: 10px; max-width: 300px;">
+                                            <div
+                                                style="max-width: 250px; min-width: 250px; width: 250px; font-size: 13px;">
+                                                <b>Analiza {{a.XRF.indexOf(x) + 1}}</b>
+                                                <img src="http://localhost:4000/uploads/{{x.slika}}"
+                                                    style="width: 250px; height: 250px;border-width: 2px;border: solid;  border-color: #e6deec;"
+                                                    alt="Slika">
+                                                <p>{{x.tekst}}</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div style="height: 10px;"></div>
+                                </div>
+                                <br>
+                                <br>
+                            </div>
+                            <div *ngIf="xrdClicked == true && a.XRD.length > 0"
+                                style="overflow-wrap: break-word; max-width: 1500px;">
+                                <div class="contact-form-wrap2" style="min-width: 300px; font-size: larger;">
+                                    <button type="button" class="close" aria-label="Close" (click)="closeXrd()"
+                                        style="position: absolute; left: 1250px;">
+                                        <span
+                                            style="color: white; height: 10px; margin-top: 3px; font-size: larger;">&times;</span>
+                                    </button>
+                                    <div class="d-flex align-items-center justify-content-center"
+                                        style="background-color: rgb(248, 177, 149); font-size: larger; margin-bottom: 10px;">
+                                        XRD
+                                    </div>
+                                    <div *ngIf="a.XRD.length > 0" style="display: flex; flex-wrap: wrap;">
+                                        <div *ngFor="let x of a.XRD" style="flex: 1; margin: 10px; max-width: 300px;">
+                                            <div
+                                                style="max-width: 250px; min-width: 250px; width: 250px; font-size: 13px;">
+                                                <b>Analiza {{a.XRD.indexOf(x) + 1}}</b>
+                                                <img src="http://localhost:4000/uploads/{{x.slika}}"
+                                                    style="width: 250px; height: 250px;border-width: 2px;border: solid;  border-color: #e6deec;"
+                                                    alt="Slika">
+                                                <p>{{x.tekst}}</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div style="height: 10px;"></div>
+                                </div>
+                                <br>
+                                <br>
+                            </div>
+                            <div *ngIf="xsClicked == true && a.XS.length > 0"
+                                style="overflow-wrap: break-word; max-width: 1500px;">
+                                <div class="contact-form-wrap2" style="min-width: 300px; font-size: larger;">
+                                    <button type="button" class="close" aria-label="Close" (click)="closeXs()"
+                                        style="position: absolute; left: 1250px;">
+                                        <span
+                                            style="color: white; height: 10px; margin-top: 3px; font-size: larger;">&times;</span>
+                                    </button>
+                                    <div class="d-flex align-items-center justify-content-center"
+                                        style="background-color: rgb(248, 177, 149); font-size: larger; margin-bottom: 10px;">
+                                        XS
+                                    </div>
+                                    <div *ngIf="a.XS.length > 0" style="display: flex; flex-wrap: wrap;">
+                                        <div *ngFor="let x of a.XS" style="flex: 1; margin: 10px; max-width: 300px;">
+                                            <div
+                                                style="max-width: 250px; min-width: 250px; width: 250px; font-size: 13px;">
+                                                <b>Analiza {{a.XS.indexOf(x) + 1}}</b>
+                                                <img src="http://localhost:4000/uploads/{{x.slika}}"
+                                                    style="width: 250px; height: 250px;border-width: 2px;border: solid;  border-color: #e6deec;"
+                                                    alt="Slika">
+                                                <p>{{x.tekst}}</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br>
+                                    <div style="height: 10px;"></div>
+                                </div>
+                                <br>
+                                <br>
+                            </div>
+                            <div *ngIf="oslClicked == true && a.OSL.length > 0"
+                                style="overflow-wrap: break-word; max-width: 1500px;">
+                                <div class="contact-form-wrap2" style="min-width: 300px; font-size: larger;">
+                                    <button type="button" class="close" aria-label="Close" (click)="closeOsl()"
+                                        style="position: absolute; left: 1250px;">
+                                        <span
+                                            style="color: white; height: 10px; margin-top: 3px; font-size: larger;">&times;</span>
+                                    </button>
+                                    <div class="d-flex align-items-center justify-content-center"
+                                        style="background-color: rgb(248, 177, 149); font-size: larger; margin-bottom: 10px;">
+                                        OSL
+                                    </div>
+                                    <div *ngIf="a.OSL.length > 0" style="display: flex; flex-wrap: wrap;">
+                                        <div *ngFor="let x of a.OSL" style="flex: 1; margin: 10px; max-width: 300px;">
+                                            <div
+                                                style="max-width: 250px; min-width: 250px; width: 250px; font-size: 13px;">
+                                                <b>Analiza {{a.OSL.indexOf(x) + 1}}</b>
+                                                <img src="http://localhost:4000/uploads/{{x.slika}}"
+                                                    style="width: 250px; height: 250px;border-width: 2px;border: solid;  border-color: #e6deec;"
+                                                    alt="Slika">
+                                                <p>{{x.tekst}}</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <br>
+                                    <div style="height: 10px;"></div>
+                                </div>
+                                <br>
+                                <br>
+                            </div>
+                            <div *ngIf="xrfClicked == true && a.XRF.length == 0"
+                                style="overflow-wrap: break-word; max-width: 1500px;">
+                                <div class="contact-form-wrap2" style="min-width: 300px; font-size: larger;">
+                                    <button type="button" class="close" aria-label="Close" (click)="closeXrf()"
+                                        style="position: absolute; left: 1250px;">
+                                        <span
+                                            style="color: white; height: 10px; margin-top: 3px; font-size: larger;">&times;</span>
+                                    </button>
+                                    <div class="d-flex align-items-center justify-content-center"
+                                        style="background-color: rgb(248, 177, 149); font-size: larger; margin-bottom: 10px;">
+                                        XRF
+                                    </div>
+                                    <div style="margin-left: 15px;">
+                                        <p>Nema analiza</p>
+                                    </div>
+                                    <br>
+                                    <div style="height: 10px;"></div>
+                                </div>
+                                <br>
+                                <br>
+                            </div>
+                            <div *ngIf="xrdClicked == true && a.XRD.length == 0"
+                                style="overflow-wrap: break-word; max-width: 1500px;">
+                                <div class="contact-form-wrap2" style="min-width: 300px; font-size: larger;">
+                                    <button type="button" class="close" aria-label="Close" (click)="closeXrd()"
+                                        style="position: absolute; left: 1250px;">
+                                        <span
+                                            style="color: white; height: 10px; margin-top: 3px; font-size: larger;">&times;</span>
+                                    </button>
+                                    <div class="d-flex align-items-center justify-content-center"
+                                        style="background-color: rgb(248, 177, 149); font-size: larger; margin-bottom: 10px;">
+                                        XRD
+                                    </div>
+                                    <div style="margin-left: 15px;">
+                                        <p>Nema analiza</p>
+                                    </div>
+                                    <br>
+                                    <div style="height: 10px;"></div>
+                                </div>
+                                <br>
+                                <br>
+                            </div>
+                            <div *ngIf="xsClicked == true && a.XS.length == 0"
+                                style="overflow-wrap: break-word; max-width: 1500px;">
+                                <div class="contact-form-wrap2" style="min-width: 300px; font-size: larger;">
+                                    <button type="button" class="close" aria-label="Close" (click)="closeXs()"
+                                        style="position: absolute; left: 1250px;">
+                                        <span
+                                            style="color: white; height: 10px; margin-top: 3px; font-size: larger;">&times;</span>
+                                    </button>
+                                    <div class="d-flex align-items-center justify-content-center"
+                                        style="background-color: rgb(248, 177, 149); font-size: larger; margin-bottom: 10px;">
+                                        XS
+                                    </div>
+                                    <div style="margin-left: 15px;">
+                                        <p>Nema analiza</p>
+                                    </div>
+                                    <br>
+                                    <div style="height: 10px;"></div>
+                                </div>
+                                <br>
+                                <br>
+                            </div>
+                            <div *ngIf="oslClicked == true && a.OSL.length == 0"
+                                style="overflow-wrap: break-word; max-width: 1500px;">
+                                <div class="contact-form-wrap2" style="min-width: 300px; font-size: larger;">
+                                    <button type="button" class="close" aria-label="Close" (click)="closeOsl()"
+                                        style="position: absolute; left: 1250px;">
+                                        <span
+                                            style="color: white; height: 10px; margin-top: 3px; font-size: larger;">&times;</span>
+                                    </button>
+                                    <div class="d-flex align-items-center justify-content-center"
+                                        style="background-color: rgb(248, 177, 149); font-size: larger; margin-bottom: 10px;">
+                                        OSL
+                                    </div>
+                                    <div style="margin-left: 15px;">
+                                        <p>Nema analiza</p>
+                                    </div>
+                                    <br>
+                                    <div style="height: 10px;"></div>
+                                </div>
+                                <br>
+                                <br>
+                            </div>
+                            <br>
+                            <div *ngIf="a.pdfs != null && a.links != null">
+                                <div *ngIf="showLiteratureFlag == true && (a.pdfs.length > 0 || a.links.length > 0)"
+                                    style="overflow-wrap: break-word; max-width: 1000px;">
+                                    <div class="contact-form-wrap2" style=" width: 800px; font-size: larger;">
+                                        <button type="button" class="close" aria-label="Close"
+                                            style="position: absolute; left: 790px; color: white;"
+                                            (click)="closeLiterature()">
+                                            <span
+                                                style="color: white; height: 10px; margin-top: 3px; font-size: larger;">&times;</span>
+                                        </button>
+                                        <div class="d-flex align-items-center justify-content-center"
+                                            style="background-color: #6c567b; font-size: larger; margin-bottom: 10px; color: white;">
+                                            Literatura
+                                        </div>
+                                        <div *ngIf="a.links.length > 0">
+                                            <p style="position: relative; left: 10px; color: #6c567b;">Linkovi</p>
+                                            <div *ngFor="let l of a.links" style="position: relative; left: 10px;">
+                                                <a href="{{l}}" target="_blank">{{l}}</a>
+                                            </div>
+                                        </div>
+                                        <br>
+                                        <div *ngIf="a.pdfs.length > 0">
+                                            <p style="position: relative; left: 10px; color: #6c567b;">Pdf fajlovi</p>
+                                            <div *ngFor="let p of a.pdfs" style="position: relative; left: 10px;">
+                                                <a href="http://localhost:4000/uploads/{{p}}" target="_blank">{{p}}</a>
+                                            </div>
+                                        </div>
+                                        <div style="height: 10px;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div *ngIf="a.pdfs != null && a.links != null">
+                                <div *ngIf="showLiteratureFlag == true && (a.pdfs.length == 0 && a.links.length == 0)"
+                                    style="overflow-wrap: break-word; max-width: 1000px;">
+                                    <div class="contact-form-wrap2" style=" width: 800px; font-size: larger;">
+                                        <button type="button" class="close" aria-label="Close"
+                                            style="position: absolute; left: 790px; color: white;"
+                                            (click)="closeLiterature()">
+                                            <span
+                                                style="color: white; height: 10px; margin-top: 3px; font-size: larger;">&times;</span>
+                                        </button>
+                                        <div class="d-flex align-items-center justify-content-center"
+                                            style="background-color: #6c567b; font-size: larger; margin-bottom: 10px; color: white;">
+                                            Literatura
+                                        </div>
+                                        <p style="margin-left: 15px;">Nije priložena literatura.</p>
+                                        <br>
+                                        <div style="height: 10px;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div *ngIf="editFlag == true" id="secondDiv">
+                            <div class="row" style="margin-left: 10px;">
+                                <div class="col" style="width: 700px; max-width: 700px;">
+                                    <div class="row">
+                                        <div class="col" style="max-width: 350px;">
+                                            <div style="width: 300px; height: fit-content;" class="contact-form-wrap2">
+                                                <input [(ngModel)]="picture" class="form-control inputClass" type="file"
+                                            name="picture" style="color: rgb(124, 113, 207); width: 250px;" multiple
+                                            (change)="selectPicture($event)">
+                                            <div style="height: 200px;"></div>
+                                                <div *ngIf="a.opisIspodSlike != 'null'"
+                                                    style="background-color: rgb(248, 177, 149);">
+                                                    <textarea type="text" [(ngModel)]="inputPictureDesc" maxlength="50"
+                                                        style="padding: 0px; height: fit-content; margin: 0px; max-height: 100px;"
+                                                        class="text-field cc-contact-field w-input"
+                                                        placeholder="Unesite opis ispod slike"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col" style="max-width: 350px;">
+                                            <div class="contact-form-wrap2" style=" width: 310px; font-size: larger;">
+                                                <div class="d-flex align-items-center justify-content-center"
+                                                    style="background-color: rgb(248, 177, 149); font-size: larger;">
+                                                    Opis
+                                                    artefakta
+                                                </div>
+                                                <h5>Dimenzije</h5>
+                                                <div style="max-width: 290px;">
+                                                    <div class="row" style="position: relative; left: 10px;">
+                                                        <div class="col">
+                                                            <p style="display: inline-block;"><span
+                                                                    style="font-weight: 500;">Dužina:</span> &nbsp;
+                                                                <input type="number" [(ngModel)]="inputLength"
+                                                                    style="display: inline-block;padding: 0px; height: fit-content; margin: 0px; max-height: 100px; width: 40px;"
+                                                                    class="text-field cc-contact-field w-input"
+                                                                    placeholder="Unesite dužinu">
+                                                            </p>
+                                                        </div>
+                                                        <div class="col">
+                                                            <p style="display: inline-block;"><span
+                                                                    style="font-weight: 500;">Širina:</span> &nbsp;
+                                                                <input type="number" [(ngModel)]="inputWidth"
+                                                                    style="display: inline-block;padding: 0px; height: fit-content; margin: 0px; max-height: 100px; width: 40px;"
+                                                                    class="text-field cc-contact-field w-input"
+                                                                    placeholder="Unesite širinu">
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row" style="position: relative; left: 10px;">
+                                                        <div class="col">
+                                                            <p style="display: inline-block;"><span
+                                                                    style="font-weight: 500;">Visina:</span> &nbsp;
+                                                                <input type="number" [(ngModel)]="inputHeight"
+                                                                    style="display: inline-block;padding: 0px; height: fit-content; margin: 0px; max-height: 100px; width: 40px;"
+                                                                    class="text-field cc-contact-field w-input"
+                                                                    placeholder="Unesite visinu">
+                                                            </p>
+                                                        </div>
+                                                        <div class="col">
+                                                            <p style="display: inline-block;"><span
+                                                                    style="font-weight: 500;">Prečnik:</span> &nbsp;
+                                                                <input type="number" [(ngModel)]="inputDiameter"
+                                                                    style="display: inline-block;padding: 0px; height: fit-content; margin: 0px; max-height: 100px; width: 40px;"
+                                                                    class="text-field cc-contact-field w-input"
+                                                                    placeholder="Unesite prečnik">
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row" style="position: relative; left: 10px;">
+                                                        <p style="display: inline-block;"><span
+                                                                style="font-weight: 500;">Debljina:</span> &nbsp;
+                                                            <input type="number" [(ngModel)]="inputThickness"
+                                                                style="display: inline-block;padding: 0px; height: fit-content; margin: 0px; max-height: 100px; width: 40px;"
+                                                                class="text-field cc-contact-field w-input"
+                                                                placeholder="Unesite debljinu">
+                                                        </p>
+                                                    </div>
+                                                    <div class="row" style="position: relative; left: 10px;">
+                                                        <p style="display: inline-block;"><span
+                                                                style="font-weight: 500;">Težina:</span> &nbsp;
+                                                            <input type="number" [(ngModel)]="inputWeight" maxlength="7"
+                                                                style="display: inline-block;padding: 0px; height: fit-content; margin: 0px; max-height: 100px; width: 100px;"
+                                                                class="text-field cc-contact-field w-input"
+                                                                placeholder="Unesite težinu">
+                                                        </p>
+                                                    </div>
+                                                    <div class="row" style="position: relative; left: 10px;">
+                                                        <p><span style="font-weight: 500; margin-bottom: 10px;">Opis
+                                                                artefakta:</span> &nbsp;
+                                                            <textarea type="text" [(ngModel)]="inputArtefactDesc"
+                                                                maxlength="300"
+                                                                style="padding: 0px; height: fit-content; margin: 0px; max-height: 120px; height: 100px; max-width: 300px;"
+                                                                class="text-field cc-contact-field w-input"
+                                                                placeholder="Unesite opis artefakta"></textarea>
+                                                        </p>
+                                                    </div>
+                                                    <br>
+                                                    <div class="row" style="position: relative; left: 10px;">
+                                                        <p><span
+                                                                style="font-weight: 500; margin-bottom: 10px;">Analogije:</span>
+                                                            &nbsp;
+                                                            <textarea type="text" [(ngModel)]="inputAnalogies"
+                                                                maxlength="300"
+                                                                style="padding: 0px; height: fit-content; margin-bottom: 10px; max-height: 120px; height: 100px; max-width: 300px;"
+                                                                class="text-field cc-contact-field w-input"
+                                                                placeholder="Unesite analogije"></textarea>
+                                                        </p>
+                                                    </div>
+                                                    <br>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row" style="margin-top: 20px;">
+                                        <div class="col" style="max-width: 350px; width: 300px;">
+                                            <div class="contact-form-wrap2" style=" width: 310px; font-size: larger; ">
+                                                <div class="d-flex align-items-center justify-content-center"
+                                                    style="background-color: rgb(248, 177, 149); font-size: larger; margin-bottom: 10px;">
+                                                    Opis
+                                                    uzorka
+                                                </div>
+                                                <div style="max-width: 290px;">
+                                                    <p style="display: inline-block;"><span
+                                                            style="font-weight: 500; margin-bottom: 10px;">Materijal:</span>
+                                                        &nbsp;
+                                                        <select [(ngModel)]="inputMaterial" name="materijal"
+                                                            style="display: inline-block;font-family: Cera pro, sans-serif; font-size: medium; width: 170px; margin-left: 15px;"
+                                                            class="form-select form-select-sm"
+                                                            aria-label=".form-select-lg example" id="Materijal">
+                                                            <option value="">Izaberite materijal</option>
+                                                            <option
+                                                                style="font-family: Cera pro, sans-serif; font-size: medium;"
+                                                                value="Keramika">
+                                                                Keramika
+                                                            </option>
+                                                            <option
+                                                                style="font-family: Cera pro, sans-serif; font-size: medium;"
+                                                                value="Bronzani">
+                                                                Bronzani
+                                                            </option>
+                                                            <option
+                                                                style="font-family: Cera pro, sans-serif; font-size: medium;"
+                                                                value="Bakarni">
+                                                                Bakarni
+                                                            </option>
+                                                            <option
+                                                                style="font-family: Cera pro, sans-serif; font-size: medium;"
+                                                                value="Opsidijan">
+                                                                Opsidijan
+                                                            </option>
+                                                            <option
+                                                                style="font-family: Cera pro, sans-serif; font-size: medium;"
+                                                                value="Gvozdeni">
+                                                                Gvozdeni
+                                                            </option>
+                                                            <option
+                                                                style="font-family: Cera pro, sans-serif; font-size: medium;"
+                                                                value="Kost">
+                                                                Kost
+                                                            </option>
+                                                            <option
+                                                                style="font-family: Cera pro, sans-serif; font-size: medium;"
+                                                                value="Staklo">
+                                                                Staklo
+                                                            </option>
+                                                            <option
+                                                                style="font-family: Cera pro, sans-serif; font-size: medium;"
+                                                                value="Kremen">
+                                                                Kremen
+                                                            </option>
+                                                        </select>
+                                                    </p>
+                                                    <div class="row" style="position: relative; left: 10px;">
+                                                        <p><span style="font-weight: 500; margin-bottom: 10px;">Opis
+                                                                uzorka:</span> &nbsp;
+                                                            <textarea type="text" [(ngModel)]="inputSampleDesc"
+                                                                maxlength="300"
+                                                                style="padding: 0px; height: fit-content; margin-bottom: 10px; max-height: 120px; height: 80px; max-width: 300px;"
+                                                                class="text-field cc-contact-field w-input"
+                                                                placeholder="Unesite opis uzorka"></textarea>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <br>
+                                            </div>
+                                        </div>
+                                        <div class="col" style="max-width: 350px;width: 300px;">
+                                            <div class="contact-form-wrap2" style=" width: 310px;  font-size: larger; ">
+                                                <div class="d-flex align-items-center justify-content-center"
+                                                    style="background-color: rgb(248, 177, 149); font-size: larger; margin-bottom: 10px;">
+                                                    Sirovina
+                                                </div>
+                                                <div style="max-width: 290px;">
+                                                    <div class="row" style="position: relative; left: 10px;">
+                                                        <p><span
+                                                                style="font-weight: 500; margin-bottom: 10px;">Sirovina:</span>
+                                                            &nbsp;
+                                                            <textarea type="text" [(ngModel)]="inputRawMaterial"
+                                                                maxlength="200"
+                                                                style="padding: 0px; height: fit-content; margin-bottom: 10px; max-height: 120px; height: 80px; max-width: 300px;"
+                                                                class="text-field cc-contact-field w-input"
+                                                                placeholder="Unesite sirovinu"></textarea>
+                                                        </p>
+                                                    </div>
+                                                    <br>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col" style="max-width: 500px;">
+                                    <div>
+                                        <div class="contact-form-wrap2" style=" width: 510px; font-size: larger;">
+                                            <div class="d-flex align-items-center justify-content-center"
+                                                style="background-color: rgb(248, 177, 149); font-size: larger; margin-bottom: 10px;">
+                                                Provenijencija
+                                                artefakta
+                                            </div>
+                                            <div style="max-width: 490px;">
+                                                <div class="row" style="position: relative; left: 10px;">
+                                                    <p><span style="font-weight: 500; margin-bottom: 10px;">Arheološki
+                                                            lokalitet iskopavanja:</span> &nbsp;
+                                                        <select [(ngModel)]="inputArchExcSite"
+                                                            name="arheoloskiLokalitetIskopavanja"
+                                                            style="font-family: Cera pro, sans-serif; font-size: medium; width: 350px; margin-left: 5px;"
+                                                            class="form-select form-select-sm"
+                                                            aria-label=".form-select-lg example"
+                                                            id="ArheoloskiLokalitetIskopavanja">
+                                                            <option value="">Izaberite arheološki lokalitet</option>
+                                                            <option value="Velika Humska Čuka">Velika Humska Čuka
+                                                            </option>
+                                                            <option value="Bubanj">Bubanj</option>
+                                                            <option value="Bor-Šokaru Lu Patran">Bor-Šokaru Lu Patran
+                                                            </option>
+                                                            <option value="Bor-Borsko jezero">Bor-Borsko jezero</option>
+                                                            <option value="Bor-Kriveljski kamen">Bor-Kriveljski kamen
+                                                            </option>
+                                                            <option value="Bor-Hajdučka česma">Bor-Hajdučka česma
+                                                            </option>
+                                                            <option value="Bor-Trnjane">Bor-Trnjane</option>
+                                                            <option value="Bor-Ružana">Bor-Ružana</option>
+                                                            <option value="Resulja">Resulja</option>
+                                                            <option value="Resulja bare">Resulja bare</option>
+                                                            <option value="Vražji kamen">Vražji kamen</option>
+                                                            <option value="Židovar">Židovar</option>
+                                                            <option value="Vecina mala">Vecina mala</option>
+                                                            <option value="Topolnica">Topolnica</option>
+                                                            <option value="Alun">Alun</option>
+                                                            <option value="Urovica">Urovica</option>
+                                                            <option value="Boljetin">Boljetin</option>
+                                                            <option value="Bela reka">Bela reka</option>
+                                                            <option value="Bela reka, Popovača">Bela reka, Popovača
+                                                            </option>
+                                                            <option value="Bela reka, Blažište">Bela reka, Blažište
+                                                            </option>
+                                                            <option value="Bela reka, Jerski breg">Bela reka, Jerski
+                                                                breg</option>
+                                                            <option value="Štitar">Štitar</option>
+                                                            <option value="Štitar, Crkvina">Štitar, Crkvina</option>
+                                                            <option value="Štitar, Crna bara">Štitar, Crna bara</option>
+                                                            <option value="Uzveće, Crkvina">Uzveće, Crkvina</option>
+                                                            <option value="Banovo polje, Banov brod">Banovo polje, Banov
+                                                                brod</option>
+                                                            <option value="Milina, Staro selo">Milina, Staro selo
+                                                            </option>
+                                                            <option value="Provo, Kamičak">Provo, Kamičak</option>
+                                                            <option value="Stari most, Šabac">Stari most, Šabac</option>
+                                                            <option value="Orašac, Šabac">Orašac, Šabac</option>
+                                                            <option value="Jevremovac, Šabac">Jevremovac, Šabac</option>
+                                                            <option value="Bair, Šabac">Bair, Šabac</option>
+                                                            <option value="Maovi, Bus">Maovi, Bus</option>
+                                                            <option value="Drenovac">Drenovac</option>
+                                                            <option value="Lese, Avlište">Lese, Avlište</option>
+                                                            <option value="Šarkamen">Šarkamen</option>
+                                                            <option value="Pomijača, Bračinac">Pomijača, Bračinac
+                                                            </option>
+                                                            <option value="Rumska, Valjevo">Rumska, Valjevo</option>
+                                                            <option value="Gornja Vranjska, Jusupovac">Gornja Vranjska,
+                                                                Jusupovac</option>
+                                                            <option value="Mačvanski Metković">Mačvanski Metković
+                                                            </option>
+                                                            <option value="Radovašnica, Šume">Radovašnica, Šume</option>
+                                                            <option value="Lipolist">Lipolist</option>
+                                                            <option value="Lipolist, Poljane">Lipolist, Poljane</option>
+                                                            <option value="Kozjak, Brešće">Kozjak, Brešće</option>
+                                                            <option value="Trnjane 2">Trnjane 2</option>
+                                                        </select>
+                                                    </p>
+                                                </div>
+                                                <div class="row" style="position: relative; left: 10px;">
+                                                    <p style="display: inline-block;"><span
+                                                            style="font-weight: 500; margin-bottom: 10px;">Muzej:</span>
+                                                        &nbsp;
+                                                        <select [(ngModel)]="inputMuseum" name="muzej"
+                                                            style="display: inline-block;font-family: Cera pro, sans-serif; font-size: medium; width: 350px; margin-left: 15px;"
+                                                            class="form-select form-select-sm"
+                                                            aria-label=".form-select-lg example" id="Muzej">
+                                                            <option value="">Izaberite muzej</option>
+                                                            <option value="Muzej grada Beograda">Muzej grada Beograda
+                                                            </option>
+                                                            <option value="Zavičajni muzej Zemuna">Zavičajni muzej
+                                                                Zemuna</option>
+                                                            <option value="Zavičajni muzej Mladenovac">Zavičajni muzej
+                                                                Mladenovac</option>
+                                                            <option value="Narodni muzej Srbije">Narodni muzej Srbije
+                                                            </option>
+                                                            <option value="Narodni muzej u Beogradu">Narodni muzej u
+                                                                Beogradu</option>
+                                                            <option value="Zavičajni muzej Župe, Aleksandrovac">
+                                                                Zavičajni muzej Župe,
+                                                                Aleksandrovac
+                                                            </option>
+                                                            <option value="Zavičajni muzej Aleksinac">Zavičajni muzej
+                                                                Aleksinac</option>
+                                                            <option value="Narodni muzej Aranđelovac">Narodni muzej
+                                                                Aranđelovac</option>
+                                                            <option value="Zavičajni muzej Bela Palanka">Zavičajni muzej
+                                                                Bela Palanka</option>
+                                                            <option value="Muzej rudarstva i metalurgije Bor">Muzej
+                                                                rudarstva i metalurgije Bor
+                                                            </option>
+                                                            <option value="Narodni muzej Valjevo">Narodni muzej Valjevo
+                                                            </option>
+                                                            <option value="Narodni muzej Veliko Gradište">Narodni muzej
+                                                                Veliko Gradište</option>
+                                                            <option value="Narodni muzej Vranje">Narodni muzej Vranje
+                                                            </option>
+                                                            <option
+                                                                value="Zavičajni muzej Zamak kulture u Vrnjačkoj Banji">
+                                                                Zavičajni muzej
+                                                                Zamak
+                                                                kulture u Vrnjačkoj Banji</option>
+                                                            <option value="Zavičajna muzejska zbirka Dimitrovgrad">
+                                                                Zavičajna muzejska zbirka
+                                                                Dimitrovgrad</option>
+                                                            <option value="Narodni muzej Zaječar">Narodni muzej Zaječar
+                                                            </option>
+                                                            <option value="Zavičajni muzej Jagodina">Zavičajni muzej
+                                                                Jagodina</option>
+                                                            <option value="Arheološki muzej Đerdapa, Kladovo">Arheološki
+                                                                muzej Đerdapa, Kladovo
+                                                            </option>
+                                                            <option value="Zavičajni muzej Knjaževac">Zavičajni muzej
+                                                                Knjaževac</option>
+                                                            <option value="Zavičajni muzej Koceljeva">Zavičajni muzej
+                                                                Koceljeva</option>
+                                                            <option value="Narodni muzej Kragujevac">Narodni muzej
+                                                                Kragujevac</option>
+                                                            <option value="Narodni muzej Kraljevo">Narodni muzej
+                                                                Kraljevo</option>
+                                                            <option value="Narodni muzej Kruševac">Narodni muzej
+                                                                Kruševac</option>
+                                                            <option value="Narodni muzej Leskovac">Narodni muzej
+                                                                Leskovac</option>
+                                                            <option value="Muzej Jadra, Loznica">Muzej Jadra, Loznica
+                                                            </option>
+                                                            <option value="Muzej u Majdanpeku">Muzej u Majdanpeku
+                                                            </option>
+                                                            <option value="Muzej Lepenski Vir u Donjem Milanovcu">Muzej
+                                                                Lepenski Vir u Donjem
+                                                                Milanovcu</option>
+                                                            <option value="Muzej Krajine Negotin">Muzej Krajine Negotin
+                                                            </option>
+                                                            <option value="Narodni muzej u Nišu">Narodni muzej u Nišu
+                                                            </option>
+                                                            <option value="Zavičajni muzej Nova Varoš">Zavičajni muzej
+                                                                Nova Varoš</option>
+                                                            <option value="Muzej „Ras“ Novi Pazar">Muzej „Ras“ Novi
+                                                                Pazar</option>
+                                                            <option value="Zavičajni muzej Paraćin">Zavičajni muzej
+                                                                Paraćin</option>
+                                                            <option value="Zavičajni muzej Petrovac na Mlavi">Zavičajni
+                                                                muzej Petrovac na Mlavi
+                                                            </option>
+                                                            <option value="Muzej Ponišavlja, Pirot">Muzej Ponišavlja,
+                                                                Pirot</option>
+                                                            <option value="Narodni muzej u Požarevcu">Narodni muzej u
+                                                                Požarevcu</option>
+                                                            <option value="Zavičajni muzej Požega">Zavičajni muzej
+                                                                Požega</option>
+                                                            <option value="Zavičajni muzej Priboj">Zavičajni muzej
+                                                                Priboj</option>
+                                                            <option value="Muzej u Prijepolju">Muzej u Prijepolju
+                                                            </option>
+                                                            <option value="Narodni muzej Toplice, Prokuplje">Narodni
+                                                                muzej Toplice, Prokuplje
+                                                            </option>
+                                                            <option value="Muzej u Smederevu">Muzej u Smederevu</option>
+                                                            <option value="Narodni muzej u Smederevskoj Palanci">Narodni
+                                                                muzej u Smederevskoj
+                                                                Palanci</option>
+                                                            <option value="Zavičajni muzej Sokobanja">Zavičajni muzej
+                                                                Sokobanja</option>
+                                                            <option value="Zavičajni muzej Trstenik">Zavičajni muzej
+                                                                Trstenik</option>
+                                                            <option value="Muzej Horreum Margi, Ćuprija">Muzej Horreum
+                                                                Margi, Ćuprija</option>
+                                                            <option value="Narodni muzej Čačak">Narodni muzej Čačak
+                                                            </option>
+                                                            <option value="Narodni muzej Užice">Narodni muzej Užice
+                                                            </option>
+                                                            <option value="Šabački muzej">Šabački muzej</option>
+                                                            <option value="Gradski muzej Bečej">Muzej grada Bačka
+                                                                Palanka</option>
+                                                            <option value="Narodni muzej Bela Crkva">Narodni muzej Bela
+                                                                Crkva</option>
+                                                            <option value="Gradski muzej Bečej">Gradski muzej Bečej
+                                                            </option>
+                                                            <option value="Gradski muzej Vrbas">Gradski muzej Vrbas
+                                                            </option>
+                                                            <option value="Gradski muzej u Vršcu">Gradski muzej u Vršcu
+                                                            </option>
+                                                            <option value="Narodni muzej Zrenjanin">Narodni muzej
+                                                                Zrenjanin</option>
+                                                            <option value="Narodni muzej Kikinda">Narodni muzej Kikinda
+                                                            </option>
+                                                            <option value="Muzej Vojvodine">Muzej Vojvodine</option>
+                                                            <option value="Muzej grada Novog Sada">Muzej grada Novog
+                                                                Sada</option>
+                                                            <option value="Narodni muzej Pančevo">Narodni muzej Pančevo
+                                                            </option>
+                                                            <option value="Zavičajni muzej Ruma">Zavičajni muzej Ruma
+                                                            </option>
+                                                            <option value="Muzej Srema, Sremska Mitrovica">Muzej Srema,
+                                                                Sremska Mitrovica
+                                                            </option>
+                                                            <option value="Gradski muzej Sombor">Gradski muzej Sombor
+                                                            </option>
+                                                            <option value="Gradski muzej Subotica">Gradski muzej
+                                                                Subotica</option>
+                                                        </select>
+                                                </div>
+                                                <div class="row" style="position: relative; left: 10px;">
+                                                    <p style="display: inline-block;"><span
+                                                        style="font-weight: 500;">Inventarski broj:</span> &nbsp;
+                                                    <input type="text" [(ngModel)]="inputInvNum" maxlength="15"
+                                                        style="display: inline-block;padding: 0px; height: fit-content; margin: 0px; max-height: 100px; width: 200px;"
+                                                        class="text-field cc-contact-field w-input"
+                                                        placeholder="Unesite inventarski broj">
+                                                </p>
+                                                </div>
+                                                <div class="row" style="position: relative; left: 10px;">
+                                                    <p style="display: inline-block;"><span
+                                                        style="font-weight: 500; margin-bottom: 10px;">Relativno datovanje:</span>
+                                                    &nbsp;
+                                                    <select name="RelativnoDatovanje" data-name="relativnoDatovanje"
+                                                    [(ngModel)]="inputRelDating" id="RelativnoDatovanje"
+                                                    style="display: inline-block;font-family: Cera pro, sans-serif; font-size: medium; width: 250px; margin-left: 15px;"
+                                                    class="form-select form-select-sm" aria-label=".form-select-lg example">
+                                                    <option value="">Izaberite relativno datovanje</option>
+                                                    <option style="font-family: Cera pro, sans-serif; font-size: medium;"
+                                                        value="Rani neolit">
+                                                        Rani neolit
+                                                    </option>
+                                                    <option style="font-family: Cera pro, sans-serif; font-size: medium;"
+                                                        value="Kasni neolit">
+                                                        Kasni neolit
+                                                    </option>
+                                                    <option style="font-family: Cera pro, sans-serif; font-size: medium;"
+                                                        value="Rani eneolit">
+                                                        Rani eneolit
+                                                    </option>
+                                                    <option style="font-family: Cera pro, sans-serif; font-size: medium;"
+                                                        value="Srednji eneolit">
+                                                        Srednji eneolit
+                                                    </option>
+                                                    <option style="font-family: Cera pro, sans-serif; font-size: medium;"
+                                                        value="Kasni eneolit">
+                                                        Kasni eneolit
+                                                    </option>
+                                                    <option style="font-family: Cera pro, sans-serif; font-size: medium;"
+                                                        value="Rano bronzano doba">
+                                                        Rano bronzano doba
+                                                    </option>
+                                                    <option style="font-family: Cera pro, sans-serif; font-size: medium;"
+                                                        value="Srednje bronzano doba">
+                                                        Srednje bronzano doba
+                                                    </option>
+                                                    <option style="font-family: Cera pro, sans-serif; font-size: medium;"
+                                                        value="Kasno bronzano doba">
+                                                        Kasno bronzano doba
+                                                    </option>
+                                                    <option style="font-family: Cera pro, sans-serif; font-size: medium;"
+                                                    value="Rano gvozdeno doba">
+                                                    Rano gvozdeno doba
+                                                </option>
+                                                    <option style="font-family: Cera pro, sans-serif; font-size: medium;"
+                                                        value="Prelazni period">
+                                                        Prelazni period
+                                                    </option>
+                                                    <option style="font-family: Cera pro, sans-serif; font-size: medium;"
+                                                        value="Razvijeno gvozdeno doba">
+                                                        Razvijeno gvozdeno doba
+                                                    </option>
+                                                    <option style="font-family: Cera pro, sans-serif; font-size: medium;"
+                                                        value="Kasno gvozdeno doba">
+                                                        Kasno gvozdeno doba
+                                                    </option>
+                                                    <option style="font-family: Cera pro, sans-serif; font-size: medium;"
+                                                        value="Završetak gvozdenog doba">
+                                                        Završetak gvozdenog doba
+                                                    </option>
+                                                </select>
+                                                </p>
+                                                </div>
+                                                <div class="row" style="position: relative; left: 10px;">
+                                                    <p style="display: inline-block;"><span
+                                                        style="font-weight: 500;">Apsolutno datovanje:</span> &nbsp;
+                                                    <input type="text" [(ngModel)]="inputAbsDating" maxlength="40"
+                                                        style="display: inline-block;padding: 0px; height: fit-content; margin: 0px; max-height: 100px; width: 250px;"
+                                                        class="text-field cc-contact-field w-input"
+                                                        placeholder="Unesite apsolutno datovanje">
+                                                </p>
+                                                </div>
+                                                <div class="row" style="position: relative; left: 10px;">
+                                                    <p style="display: inline-block;"><span
+                                                        style="font-weight: 500;">Kontekst:</span> &nbsp;
+                                                        <select [(ngModel)]="inputContext" name="kontekst"
+                                                        style="display: inline-block;font-family: Cera pro, sans-serif; font-size: medium; width: 350px; margin-left: 15px;"
+                                                        class="form-select form-select-sm" aria-label=".form-select-lg example"
+                                                        id="Kontekst">
+                                                        <option value="">Izaberite kontekst</option>
+                                                        <option value="Arheološka celina">Arheološka celina</option>
+                                                        <option value="Iskopavanje">Iskopavanje</option>
+                                                        <option value="Slučajni nalaz">Slučajni nalaz</option>
+                                                    </select>
+                                                </p>
+                                                </div>
+                                                <div class="row" style="position: relative; left: 10px;">
+                                                    <p style="display: inline-block;"><span
+                                                        style="font-weight: 500;">Koordinate:</span> &nbsp;
+                                                    <input type="number" [(ngModel)]="inputX"
+                                                        style="display: inline-block;padding: 0px; height: fit-content; margin: 0px; max-height: 100px; width: 80px;"
+                                                        class="text-field cc-contact-field w-input"
+                                                        placeholder="Unesite x">
+                                                        &nbsp;
+                                                        <input type="number" [(ngModel)]="inputY" 
+                                                        style="display: inline-block;padding: 0px; height: fit-content; margin: 0px; max-height: 100px; width: 80px;"
+                                                        class="text-field cc-contact-field w-input"
+                                                        placeholder="Unesite y">
+                                                        &nbsp;
+                                                        <input type="number" [(ngModel)]="inputZ"
+                                                        style="display: inline-block;padding: 0px; height: fit-content; margin: 0px; max-height: 100px; width: 80px;"
+                                                        class="text-field cc-contact-field w-input"
+                                                        placeholder="Unesite z">
+                                                </p>
+                                                </div>
+                                                <div style="height: 70px;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <br>
+                            <div style="border: 2px solid #cdc6d3;">
+                                <h4 style="position: relative; left: 15px;">Literatura</h4>
+                                <div style="margin-left: 10px;">
+                                    <div style="margin-left: 20px;">
+                                        <div style="display: inline-block; margin-right: 110px;">
+                                            <p>Link</p>
+                                            <button style="width: 30px; height: 30px; border-radius: 50%; color: white;
+                                            background-color: #6c567b" (click)="linkClicked()">&plus;</button>
+                                        </div>
+                                        <div style=" display: inline-block; margin-right: 110px;">
+                                            <p>PDF</p>
+                                            <button style=" width: 30px; height: 30px; border-radius: 50%; color: white;
+                                            background-color: #6c567b" (click)="pdfClicked()">&plus;</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+                                <div *ngIf="addLinkClicked == true" style="margin-left: 10px;">
+                                    <h5 style="position: relative; left: 15px;">Link</h5>
+                                    <form>
+                                        <input class="text-field cc-contact-field w-input inputClass" type="text"
+                                            name="pdfLink" placeholder="Unesite link" [(ngModel)]="link" style="width: 400px;">
+                                        <div *ngFor="let l of linkArray" class="row"
+                                            style="margin-left: 15px; word-wrap: break-word; max-width: 450px;">
+                                            <div class="col">
+                                                <div style="display: inline-flex; align-items: flex-start;">
+                                                    <b
+                                                        style="font-size: 7px; color: #6c567b; margin-top: 0px;">&#9642;</b>
+                                                    <p
+                                                        style="word-wrap: break-word; margin-top: 5px; margin-left: 5px; margin-right: 10px;">
+                                                        {{ l
+                                                        }}</p>
+                                                    <button
+                                                        style="color: red; background-color: rgb(237, 255, 236); width: 15px; height: 15px; font-weight: 900; font-size: 13px;"
+                                                        (click)="deleteLink(linkArray.indexOf(l))">
+                                                        &#x2715;
+                                                    </button>
+                                                </div>
+                                                <br>
+                                            </div>
+                                        </div>
+                                        <br>
+                                        <button (click)="addLink()" class="button w-button"
+                                            style="width: 100px; margin-left: 16px;" type="submit">Dodaj</button>
+                                    </form>
+                                </div>
+                                <div *ngIf="addPdfClicked == true" style="margin-left: 10px;">
+                                    <h5 style="position: relative; left: 15px;">PDF</h5>
+                                    <form enctype="multipart/form-data">
+                                        <input [(ngModel)]="pdf" class="form-control inputClass" type="file"
+                                            name="pdfFile" style="color: rgb(124, 113, 207); width: 250px;" multiple
+                                            (change)="selectPdf($event)">
+                                        <br>
+                                        <div *ngFor="let p of pdfArrayOld" class="row"
+                                            style="margin-left: 15px; word-wrap: break-word; max-width: 450px;">
+                                            <div class="col">
+                                                <div style="display: inline-flex; align-items: flex-start;">
+                                                    <b
+                                                        style="font-size: 7px; color: #6c567b; margin-top: 0px;">&#9642;</b>
+                                                    <p
+                                                        style="word-wrap: break-word;margin-top: 5px; margin-left: 5px; margin-right: 10px;">
+                                                        {{ writeFilenameOld(p)
+                                                        }}</p>
+                                                    <button
+                                                        style="color: red; background-color: rgb(237, 255, 236); width: 15px; height: 15px; font-weight: 900; font-size: 13px;"
+                                                        (click)="deletePdfArrayOld(pdfArrayOld.indexOf(p))">
+                                                        &#x2715;
+                                                    </button>
+                                                </div>
+                                                <br>
+                                            </div>
+                                        </div>
+                                        <div *ngFor="let p of pdfArrayNew" class="row"
+                                            style="margin-left: 15px; word-wrap: break-word; max-width: 450px;">
+                                            <div class="col">
+                                                <div style="display: inline-flex; align-items: flex-start;">
+                                                    <b
+                                                        style="font-size: 7px; color: #6c567b; margin-top: 0px;">&#9642;</b>
+                                                    <p
+                                                        style="word-wrap: break-word;margin-top: 5px; margin-left: 5px; margin-right: 10px;">
+                                                        {{ writeFilename(p)
+                                                        }}</p>
+                                                    <button
+                                                        style="color: red; background-color: rgb(237, 255, 236); width: 15px; height: 15px; font-weight: 900; font-size: 13px;"
+                                                        (click)="deletePdfArrayNew(pdfArrayNew.indexOf(p))">
+                                                        &#x2715;
+                                                    </button>
+                                                </div>
+                                                <br>
+                                            </div>
+                                        </div>
+                                        <br>
+                                        <button (click)="addPdf()" class="button w-button"
+                                            style="width: 100px; margin-left: 16px;" type="submit">Dodaj</button>
+                                    </form>
+                                </div>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer"
+                        style="background-color: rgb(237, 255, 236); width: 1300px; height: 100px;">
+                        <div *ngIf="deleteFlag == 1" style="color: black; position: relative; left: -400px;">
+                            <p>Da li ste sigurni da želite da obrišete artefakt?</p>
+                            <div style="display: inline-block;" style="width: 220px;">
+                                <div>
+                                    <button class="button w-button" style="background-color: rgb(246, 144, 128);"
+                                        (click)="deleteArtefact()" data-dismiss="modal">Da</button>
+                                    &nbsp;
+                                    <button class="button w-button" style="background-color: rgb(246, 144, 128);"
+                                        (click)="deleteArtefactNo()">Ne</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div *ngIf="editFlag == false">
+                        <button  class="button w-button" *ngIf="deleteFlag == 0" (click)="delete(a.id)"
+                            style="background-color: rgb(246, 144, 128); color: black; position: relative; left: -600px;">Obriši
+                            artefakt</button>
+                        </div>
+                        <div *ngIf="editFlag == true">
+                            <button  class="button w-button" (click)="update()"
+                                style="background-color: rgb(169, 234, 166); color: black; position: relative; left: -1000px;">Sačuvaj
+                            </button>
+                            </div>
+                        <div *ngIf="editFlag == false">
+                        <button type="button" class="button w-button" (click)="showLiterature()"
+                            style=" width: 250px;color: black; margin-left: 100px; color: white;">Literatura</button>
+                        </div>
+                            &nbsp;
+                        <button type="button" class="btn btn-secondary button w-button"
+                            style="background-color: rgb(246, 144, 128); color: black;" data-dismiss="modal"
+                            (click)="closeArtefactModal()">Zatvori</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="row" style="width: 100%;">
+        <div class="sidenav col-md-4" style="width: 300px;">
+            <button class="dropdown-btn">Artefakt
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+                <button class="dropdown-btn">Materijal
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-container">
+                    <button *ngFor="let p of predefiniedValuesObj.materijali" (click)="materialSearch(p)"
+                        style="height: 30px; line-height: 15px;">{{p}}</button>
+                </div>
+                <button style="height: 30px; line-height: 15px;">Uzorak</button>
+                <button style="height: 30px; line-height: 15px;">Sirovina</button>
+            </div>
+            <button class="dropdown-btn">Provenijencija
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+                <button class="dropdown-btn">Arheološki lokalitet iskopavanja
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-container">
+                    <button *ngFor="let p of predefiniedValuesObj.arhLokalitetiIskopavanja" (click)="archaeologicalExcSiteSearch(p)"
+                        style="height: 30px; line-height: 15px;">{{p}}</button>
+                </div>
+                <button class="dropdown-btn">Muzej
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-container">
+                    <button *ngFor="let p of predefiniedValuesObj.muzeji" (click)="museumSearch(p)"
+                        style="height: 30px; line-height: 15px;">{{p}}</button>
+                </div>
+                <button class="dropdown-btn">Relativno datovanje
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-container">
+                    <button *ngFor="let p of predefiniedValuesObj.relDatovanja" (click)="relDatingSearch(p)" style="height: 30px; line-height: 15px;">{{p}}</button>
+                </div>
+                <button class="dropdown-btn">Kontekst
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-container">
+                    <button *ngFor="let p of predefiniedValuesObj.konteksti" (click)="contextSearch(p)"
+                        style="height: 30px; line-height: 15px;">{{p}}</button>
+                </div>
+                <button class="dropdown-btn">Ostalo
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-container">
+                    <button style="height: 30px; line-height: 15px;">Poklon</button>
+                    <button style="height: 30px; line-height: 15px;">Rekognosciranje</button>
+                    <button style="height: 30px; line-height: 15px;">Slučajni nalaz</button>
+                    <button style="height: 30px; line-height: 15px;">Nepoznato poreklo</button>
+                </div>
+            </div>
+            <button class="dropdown-btn">Vrsta ispitivanja
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+                <button class="dropdown-btn">Spektrometrijska ispitivanja
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-container">
+                    <button style="height: 30px; line-height: 15px;" (click)="xrfSearch(true)">XRF</button>
+                    <button style="height: 30px; line-height: 15px;" (click)="xrdSearch(true)">XRD</button>
+                    <button style="height: 30px; line-height: 15px;">FTIR</button>
+                    <button style="height: 30px; line-height: 15px;">ICP-OES</button>
+                </div>
+                <button class="dropdown-btn">Mikroskopska ispitivanja
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-container">
+                    <button style="height: 30px; line-height: 15px;">OM</button>
+                    <button style="height: 30px; line-height: 15px;">PETROGRAFIJA</button>
+                    <button style="height: 30px; line-height: 15px;">SEM-EDX</button>
+                    <button style="height: 30px; line-height: 15px;">XR</button>
+                </div>
+                <button class="dropdown-btn">Izotopska analiza
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-container">
+                    <button style="height: 30px; line-height: 15px;">Analiza izotopa kalaja</button>
+                    <button style="height: 30px; line-height: 15px;">Analiza izotopa olova</button>
+                    <button style="height: 30px; line-height: 15px;">Analiza izotopa bakra</button>
+                </div>
+                <button class="dropdown-btn">Datovanje
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-container">
+                    <button style="height: 30px; line-height: 15px;" (click)="oslSearch(true)">OSL</button>
+                    <button style="height: 30px; line-height: 15px;">AMS</button>
+                </div>
+            </div>
+        </div>
+        <div style="width: calc(100% - 300px);" class="container col">
+            <div class="row row-cols-5">
+                <div class="col" *ngFor="let a of allArtefacts" style="padding-right: 5px; padding-bottom: 15px;">
+                    <div class="enlarge-container">
+                        <div class="enlarge-hover" style="box-shadow: 0 0 4px 4px rgb(176, 174, 174);">
+                            <img src="http://localhost:4000/uploads/{{a.slika}}" (click)="openModal(a)"
+                                style="width: 220px; height: 200px; background-color: #EDFFEC;" data-toggle="modal"
+                                [attr.data-target]="'#' + (a.id + '_modal')" alt="Slika">
+                            <div class="enlarge-text">
+                                {{a.opisIspodSlike}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="pagination" style="line-height: 15px; position: relative; left: 620px;"
+                *ngIf="allArtefacts.length > 0">
+                <button class="button w-button" style="font-size: 8px; height: 30px; width: 130px; margin-right: 3px;"
+                    (click)="firstPage()" [disabled]="currentPage === 1">
+                    <p style="text-align: center; 
+                    display: flex;
+                    justify-content: center;
+                    align-items: center; color: white;">
+                        << Početak</p>
+                </button>
+                <button class="button w-button" style="font-size: 8px; height: 30px; width: 130px;"
+                    (click)="previousPage()" [disabled]="currentPage === 1">
+                    <p style="text-align: center; 
+                    display: flex;
+                    justify-content: center;
+                    align-items: center; color: white;">&#8678; Prethodna</p>
+                </button>
+                &nbsp;
+                <button class="button w-button" (click)="nextPage()"
+                    style="font-size: 8px; height: 30px; width: 130px; margin-right: 3px;"
+                    [disabled]="currentPage === totalPages">
+                    <p style="text-align: center; 
+                    display: flex;
+                    justify-content: center;
+                    align-items: center; color: white;">Sledeća &#8680;</p>
+                </button>
+                <button class="button w-button" style="font-size: 8px; height: 30px; width: 130px;" (click)="lastPage()"
+                    [disabled]="currentPage === totalPages">
+                    <p style="text-align: center; 
+                    display: flex;
+                    justify-content: center;
+                    align-items: center; color: white;">Kraj >></p>
+                </button>
+                <br>
+                <br>
+                <div style="position: relative; left: 400px; width: 150px;">
+                    Strana <input type="text"
+                        style="background-color: #e6deec;width: 30px; border-radius: 2px; border-width: 1px; border-color: #6c567b;"
+                        name="page" data-name="Page" id="Page" [(ngModel)]="pageToGo" (keydown)="onKeyDownPage($event)">
+                    od {{totalPages}}
+                </div>
+            </div>
+            <div style="width: calc(100% - 300px); margin: 0; display:flex; margin-left: 150px;" class="container col"
+                *ngIf="allArtefacts.length == 0">
+                <p style="font-weight: 500;">Nije pronađen </p> &nbsp; <p> nijedan artefakt koji odgovara
+                    kriterijumu
+                    pretraživanja.</p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div>
+        <div class="footer-section">
+            <div class="container"></div>
+            <footer id="footer" class="footer">
+                <div class="container footer-mobile w-container">
+                    <div class="footer-flex-container">
+                        <div id="w-node-_4813bca7-b03f-483a-6996-c71a84eebe57-51e627e8" class="div-block"><a
+                                href="https://www.theflowserbia.com/"
+                                id="w-node-_151f772c-b42d-aa89-9cc6-16347d3685e6-51e627e8" target="_blank"
+                                class="footer-link-block w--current"><img
+                                    src="https://uploads-ssl.webflow.com/62024fae1d3031093cd14c20/6203de200818db69dc48b79d_FB%20COVER%202-4.png"
+                                    loading="lazy"
+                                    sizes="(max-width: 479px) 150px, (max-width: 767px) 31vw, 200.00001525878906px"
+                                    srcset="https://uploads-ssl.webflow.com/62024fae1d3031093cd14c20/6203de200818db69dc48b79d_FB%20COVER%202-4-p-500.png 500w, https://uploads-ssl.webflow.com/62024fae1d3031093cd14c20/6203de200818db69dc48b79d_FB%20COVER%202-4-p-800.png 800w, https://uploads-ssl.webflow.com/62024fae1d3031093cd14c20/6203de200818db69dc48b79d_FB%20COVER%202-4.png 1306w"
+                                    alt="The Flow Logo" class="footer-image"></a></div>
+                        <div id="w-node-_4813bca7-b03f-483a-6996-c71a84eebe57-51e627e8" class="div-block"
+                            style="position: relative; left: 200px;"><a href="http://fondzanauku.gov.rs/?lang=en"
+                                target="_blank" class="w-inline-block"><img src="/assets/fzn/png" loading="lazy"
+                                    sizes="(max-width: 479px) 150px, (max-width: 767px) 31vw, 200.00001525878906px"
+                                    srcset="/assets/fzn.png" alt="Science Fund logo" class="image-7"></a></div>
+                        <div style="position: relative; left: 400px;"><a href="https://www.f.bg.ac.rs/" target="_blank"
+                                class="footer-link-block w-inline-block"><img
+                                    src="https://uploads-ssl.webflow.com/62024fae1d3031093cd14c20/620546753192662d70dfe278_logo2.png"
+                                    loading="lazy" sizes="80px"
+                                    srcset="https://uploads-ssl.webflow.com/62024fae1d3031093cd14c20/620546753192662d70dfe278_logo2-p-500.png 500w, https://uploads-ssl.webflow.com/62024fae1d3031093cd14c20/620546753192662d70dfe278_logo2.png 620w"
+                                    alt="Arheološki institut Beograd" class="footer-logo-1">
+                                <div>Univerzitet u Beogradu<br> Filozofski fakultet</div>
+                            </a><a href="http://www.ai.ac.rs/" target="_blank"
+                                class="footer-link-block w-inline-block"><img
+                                    src="https://uploads-ssl.webflow.com/62024fae1d3031093cd14c20/6205468ad08b31ea82ae606e_logo.png"
+                                    loading="lazy" alt="Faculty of Philosophy" class="footer-logo-2">
+                                <div>Arheološki institut</div>
+                            </a><a href="https://www.vin.bg.ac.rs/" target="_blank"
+                                class="footer-link-block vertical w-inline-block">
+                                <div class="div-block-2"><img
+                                        src="https://uploads-ssl.webflow.com/62024fae1d3031093cd14c20/6205464a56b9d9690cb229bb_logo_Serbia_Vinca_0%20(1).png"
+                                        loading="lazy" sizes="70px"
+                                        srcset="https://uploads-ssl.webflow.com/62024fae1d3031093cd14c20/6205464a56b9d9690cb229bb_logo_Serbia_Vinca_0%20(1)-p-500.png 500w, https://uploads-ssl.webflow.com/62024fae1d3031093cd14c20/6205464a56b9d9690cb229bb_logo_Serbia_Vinca_0%20(1).png 2487w"
+                                        alt="VINČA INSTITUTE OF NUCLEAR SCIENCES University of Belgrade"
+                                        class="image footer-logo-3">
+                                    <div class="text-block-5 desktop">VINČA<br>INSTITUT ZA NUKLEARNE
+                                        NAUKE<br>Univerzitet u Beogradu<br></div>
+                                    <div class="text-block-5 mobile">VINČA<br>INSTITUT ZA NUKLEARNE
+                                        NAUKE</div>
+                                </div>
+                                <div class="text-block-5 mobile second">Univerzitet u Beogradu<br></div>
+                                <div class="text-block-4">INSTITUT OD NACIONALNOG ZNAČAJA ZA REPUBLIKU SRBIJU</div>
+                            </a></div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=62024fae1d3031093cd14c20"
+        type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+        crossorigin="anonymous"></script>
+    <script src="https://uploads-ssl.webflow.com/62024fae1d3031093cd14c20/js/webflow.a435bed5e.js"
+        type="text/javascript"></script><a class="w-webflow-badge" href="https://webflow.com?utm_campaign=brandjs"><img
+            src="https://d3e54v103j8qbb.cloudfront.net/img/webflow-badge-icon.f67cd735e3.svg" alt=""
+            style="margin-right: 8px; width: 16px;"><img
+            src="https://d1otoma47x30pg.cloudfront.net/img/webflow-badge-text.6faa6a38cd.svg" alt="Made in Webflow"></a>
+</body>
+
+</html>
